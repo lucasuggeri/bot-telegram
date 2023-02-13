@@ -1,5 +1,4 @@
 import dotenv from "dotenv";
-import fs from "fs";
 import { Telegraf } from "telegraf";
 import { authorize, listEvents } from "../index.js";
 import cron from "cron";
