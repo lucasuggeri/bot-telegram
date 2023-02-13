@@ -12,12 +12,12 @@ bot.command("start", async (ctx) => {
   await ctx.sendMessage(
     `Olá ${ctx.message.chat.first_name}, este é um bot para avisar seus eventos do dia`
   );
-  //const weeklyJob = new cron.CronJob("0 0 0 * * 0", async function () {
-  const result = await authorize().then(listEvents).catch(console.error);
-  await ctx.sendMessage(`Seus eventos da semana são:\n${result}`);
+  const weeklyJob = new cron.CronJob("0 0 0 * * 0", async function () {
+    const result = await authorize().then(listEvents).catch(console.error);
+    await ctx.sendMessage(`Seus eventos da semana são:\n${result}`);
+  });
+  weeklyJob.start();
 });
-//  weeklyJob.start();
-//});
 
 bot.use(async (ctx, next) => {
   let log = ctx.message.text;
