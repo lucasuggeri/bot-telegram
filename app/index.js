@@ -105,4 +105,4 @@ export async function listEvents(auth) {
   return eventData.join("\n");
 }
 
-//authorize().then(listEvents).catch(console.error);
+authorize().then(listEvents).catch(console.error);
