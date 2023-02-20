@@ -27,8 +27,7 @@ yarn
 ```
  Criar arquivo .env para configurar as variáveis de ambiente 
  ### No Telegram:
- Criar o bot no Telegram a partir do BotFather e obter o token para utilizar no .env; 
- Criar o comando Events;
+ Criar o bot no Telegram a partir do BotFather e obter o token para utilizar no .env e criar o comando Events
   ### No Google Cloud:
   Você deve criar seu projeto no Google Cloud e ativar a Google Calendar API, em seguida, clique em "Credenciais" e crie uma credencial "ID do Cliente OAuth".
   Selecione o tipo de aplicativo como "app para computador" e escolha um nome.
