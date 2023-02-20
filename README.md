@@ -5,16 +5,15 @@
 
 ## 📝Índice 
 
--   Sobre
--   Primeiros passos
--   Como usar
--   Built Using
--   Autor
+-   [Sobre](#about)
+-   [Como usar] (#usage)
+-   [Built Using](#built_using)
+-   [Autor](#autor)
 
-## 🧐Sobre
+## 🧐Sobre <a name = "about"></a>
 Um bot de Telegram utilizando a API do Google Calendar para acessar dados na agenda e enviá-los para o usuário uma vez por semana nos domingos.
 
-## 🎈Como usar
+## 🎈Como usar <a name="usage"></a>
 ### Pré-requisitos
  - Yarn instalado na máquina que irá rodar o projeto
  - .env
@@ -39,12 +38,12 @@ node index.js
 ```
 Se tudo ocorreu bem, você será redirecionado para uma tela de login do Google, onde irá conectar o email com os eventos que serão notificados.
 Após isso, execute o comando ``Yarn dev``, mande ``/start`` e após, ``/events`` para o bot.
-## ⛏️Built using
+## ⛏️Built using <a name = "built_using"></a>
  - [Node.js](https://nodejs.org/en/) - Server Environment
  - [Telegraf.js](https://telegraf.js.org/index.html) - Telegram Bot API framework for Node.js
  - [Google Calendar API](https://developers.google.com/calendar/api/guides/overview?hl=pt-br) - RESTful API 
 
-## ✍️Autor
+## ✍️Autor <a name = "autor"></a>
 
 - [@lucasuggeri](https://github.com/lucasuggeri) -  Desenvolvimento e documentação
 
