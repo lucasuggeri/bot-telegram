@@ -6,7 +6,7 @@
 ## 📝Índice 
 
 -   [Sobre](#about)
--   [Como usar] (#usage)
+-   [Como usar](#usage)
 -   [Built Using](#built_using)
 -   [Autor](#autor)
 
